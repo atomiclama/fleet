@@ -1,8 +1,9 @@
+```
 diff
 
 # version
-# INAV/OMNIBUSF4V3_S5_S6_2SS 2.4.0 Apr  7 2020 / 13:33:52 (deb05302f)
-# GCC-8.2.1 20181213 (release) [gcc-8-branch revision 267074]
+# INAV/OMNIBUSF4V3_S5_S6_2SS 2.4.0 Apr 24 2020 / 12:42:18 (deb05302f)
+# GCC-9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599]
 
 # start the command batch
 batch start
@@ -93,6 +94,7 @@ set gyro_hardware_lpf = 256HZ
 set gyro_lpf_hz = 90
 set gyro_lpf_type = PT1
 set gyro_stage2_lowpass_hz = 175
+set dyn_notch_min_hz = 100
 set acc_hardware = MPU6000
 set acczero_x = 84
 set acczero_z = -222
@@ -116,8 +118,7 @@ set motor_pwm_rate = 8000
 set motor_pwm_protocol = DSHOT300
 set throttle_idle =  6.000
 set failsafe_procedure = RTH
-set current_meter_scale = 282
-set current_meter_offset = 50
+set current_meter_scale = 270
 set model_preview_type = 3
 set applied_defaults = 2
 set rpm_gyro_min_hz = 80
@@ -169,4 +170,4 @@ set battery_capacity_critical = 220
 # end the command batch
 batch end
 
-# 
+#

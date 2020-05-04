@@ -1,12 +1,14 @@
 # IFlight XL7 clone
 
+Doubled up 8mm arms 
+
 ## Source
 
 ## Components
 
 - Multistar 2306 2100kV 
 - Racecraft 6x3.8x3 
-- OmnibusF4SD
+- OmnibusF4V6
 - Matek 200mW
 - IA6B @120Hz
 - Foxeer Monster
