@@ -1,0 +1,175 @@
+
+Entering CLI Mode, type 'exit' to return, or 'help'
+
+# diff all
+
+# version
+# Betaflight / OMNIBUSF4FW (OBFW) 4.0.3 Jun  1 2019 / 11:42:51 (094cfc956) MSP API: 1.41
+
+# start the command batch
+batch start
+
+# reset configuration to default settings
+defaults nosave
+
+board_name OMNIBUSF4FW
+manufacturer_id
+mcu_id 0026001b3037470736353634
+signature
+
+# name
+
+# resources
+resource MOTOR 1 A03
+resource MOTOR 2 B00
+resource MOTOR 3 B05
+resource MOTOR 4 B01
+
+# timer
+
+# dma
+
+# mixer
+mixer CUSTOM
+mmix 0  1.000 -0.809  0.659 -1.000
+mmix 1  1.000 -1.000 -0.659  1.000
+mmix 2  1.000  0.809  0.659  1.000
+mmix 3  1.000  1.000 -0.659 -1.000
+
+
+#from iforce
+mixer custom
+mmix reset
+mmix 0 1 -0.809 0.659 -1
+mmix 1 1 -1 -0.659 1
+mmix 2 1 0.809 0.659 1
+mmix 3 1 1 -0.659 -1
+
+
+# servo
+
+# servo mix
+
+
+# feature
+feature GPS
+
+# beeper
+beeper -ON_USB
+
+# beacon
+
+# map
+
+# serial
+serial 1 8192 115200 57600 0 115200
+serial 3 0 115200 57600 0 115200
+serial 5 2 115200 57600 0 115200
+
+# led
+
+# color
+
+# mode_color
+
+# aux
+aux 0 0 1 1750 2100 0 0
+aux 1 1 5 1750 2100 0 0
+
+# adjrange
+
+# rxrange
+
+# vtx
+
+# rxfail
+
+# display_name
+
+# master
+set gyro_lowpass_hz = 100
+set gyro_lowpass2_hz = 0
+set gyro_to_use = SECOND
+set dyn_notch_range = LOW
+set dyn_notch_min_hz = 100
+set dyn_lpf_gyro_min_hz = 0
+set acc_calibration = -32,-15,540
+set mag_hardware = NONE
+set min_check = 1020
+set rssi_channel = 14
+set serialrx_provider = IBUS
+set blackbox_p_ratio = 64
+set motor_pwm_protocol = DSHOT600
+set align_board_roll = 180
+set ibata_scale = 1780
+set ibata_offset = 0
+set yaw_motors_reversed = ON
+set small_angle = 180
+set gps_provider = UBLOX
+set gps_sbas_mode = EGNOS
+set gps_auto_baud = ON
+set gps_rescue_allow_arming_without_fix = ON
+set deadband = 2
+set yaw_deadband = 5
+set pid_process_denom = 1
+set debug_mode = GYRO_SCALED
+set vtx_channel = 5
+set vtx_power = 2
+set vtx_freq = 5820
+set gyro_2_sensor_align = CW180
+
+# profile
+profile 0
+
+set dyn_lpf_dterm_min_hz = 0
+set dterm_lowpass_hz = 70
+set dterm_lowpass2_hz = 0
+set vbat_pid_gain = ON
+set p_pitch = 39
+set d_pitch = 33
+set p_roll = 33
+set d_roll = 30
+set d_min_roll = 0
+set d_min_pitch = 0
+
+# profile
+profile 1
+
+
+# profile
+profile 2
+
+
+# restore original profile selection
+profile 0
+
+# rateprofile
+rateprofile 0
+
+
+# rateprofile
+rateprofile 1
+
+
+# rateprofile
+rateprofile 2
+
+
+# rateprofile
+rateprofile 3
+
+
+# rateprofile
+rateprofile 4
+
+
+# rateprofile
+rateprofile 5
+
+
+# restore original rateprofile selection
+rateprofile 0
+
+# save configuration
+save
+#
