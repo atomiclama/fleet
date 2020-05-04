@@ -2,6 +2,9 @@
 
 ## Source
 
+<https://www.thingiverse.com/thing:4141676>
+<https://www.airbladeuav.com/collections/frames-6-inch-and-7-inch-props/products/fr7-7-inch-long-range-frame-kit>
+
 ## Components
 
 - Sunnysky 2212 1400kv
@@ -20,4 +23,3 @@
 - @70-80km/h
 
 ## Pictures
-
