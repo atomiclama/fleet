@@ -12,7 +12,7 @@
 - OmnibusF4SD
 - Matek 200mW
 - Custom RX @120Hz
-- BN180
+- BN220
 - Foxeer Monster
 
 ## Stats
